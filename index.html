@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lan="en" and dir="Itr">
+<head>
+	<meta charset="utf-8">
+	<title>MLBB | LOGIN</title>
+	<link rel="stylesheet" href="style.css">
+	<SCRIPT LANGUAGE="JavaScript">
+	
+	function LogIn()
+{
+	
+	loggedin=false;
+	username="";
+	password="";
+		
+	
+	var username=document.getElementById("username").value;
+	var password=document.getElementById("password").value;
+
+	if(username=="alberttan" && password=="123123")
+	
+	{
+	loggedin=true;
+		window.location ="data1.html";
+	}
+	if(username=="bryldealca" && password=="123456")
+	
+	{
+	loggedin=true;
+		window.location ="data2.html";
+	}
+	if(username=="hannahtamayo" && password=="123456")
+	
+	{
+	loggedin=true;
+		window.location ="data3.html";
+	}
+	if(username=="leniedondiego" && password=="123456")
+	
+	{
+	loggedin=true;
+		window.location ="data4.html";
+	}
+	if(username=="quincessbarcelona" && password=="123456")
+	
+	{
+	loggedin=true;
+		window.location ="data5.html";
+	}
+	if(username=="rosemariedeleon" && password=="123456")
+	
+	{
+	loggedin=true;
+		window.location ="data6.html";
+	}
+
+	
+
+}
+	</script>
+</head>
+<body>
+
+<form class="box" action="index.html" method="POST">
+
+
+<input type="text" name="" placeholder="User Name" id="username">
+<input type="password" name="" placeholder="Password" id="password">
+<input type="button" name="" value="LOG IN" onClick="LogIn()"/>
+
+</form>
+
+</body>
+
+</html>
